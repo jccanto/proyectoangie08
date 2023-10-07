@@ -26,7 +26,7 @@ let fecha = new Date();
 console.log(fecha.getDate());
 
 
-if( fecha.getDate()==2){
+if( fecha.getDate()>=2){
   function mostrar1(){
     document.getElementById("img").style.display ="block";
   }
@@ -42,7 +42,7 @@ if( fecha.getDate()==2){
 }
 
 
-if( fecha.getDate()==3){
+if( fecha.getDate()>=3){
 
   function mostrar2(){
     document.getElementById("img2").style.display ="block";
@@ -62,7 +62,7 @@ if( fecha.getDate()==3){
 
 
 
-if( fecha.getDate()==4){
+if( fecha.getDate()>=4){
   function mostrar3(){
     document.getElementById("img3").style.display ="block";
   }
@@ -79,7 +79,7 @@ if( fecha.getDate()==4){
 }
 
 
-if( fecha.getDate()==5){
+if( fecha.getDate()>=5){
   function mostrar4(){
     document.getElementById("img4").style.display ="block";
   }
@@ -93,7 +93,7 @@ if( fecha.getDate()==5){
   numero=1;
 }
 
-if( fecha.getDate()==6){
+if( fecha.getDate()>=6){
   function mostrar5(){
     document.getElementById("img5").style.display ="block";
   }
@@ -107,7 +107,7 @@ if( fecha.getDate()==6){
   numero=1;
 }
 
-if( fecha.getDate()==7){
+if( fecha.getDate()>=7){
   function mostrar6(){
     document.getElementById("img6").style.display ="block";
   }
@@ -121,7 +121,7 @@ if( fecha.getDate()==7){
   numero=1;
 }
 
-if( fecha.getDate()==8){
+if( fecha.getDate()>=8){
   function mostrar7(){
     document.getElementById("img7").style.display ="block";
   }
